@@ -1,0 +1,22 @@
+{
+  "name": "eslint-config-pubnub",
+  "version": "1.0.0",
+  "description": "eslint rules for pubnub",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pubnub/eslint-config-pubnub.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/pubnub/eslint-config-pubnub/issues"
+  },
+  "homepage": "https://github.com/pubnub/eslint-config-pubnub#readme",
+  "dependencies": {
+    "eslint-config-airbnb": "^12.0.0"
+  }
+}
