@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/pubnub/eslint-config-pubnub#readme",
   "dependencies": {
-    "eslint-config-airbnb": "^12.0.0"
+    "eslint-config-airbnb": "^12.0.0",
+    "eslint-plugin-import": "^2.0.1"
   }
 }
