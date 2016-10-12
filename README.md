@@ -30,7 +30,7 @@ install the dependency: `npm install --save-dev gulp-eslint`
 
 and add the following configuration
 
-```
+```javascript
 const gulp = require('gulp');
 const eslint = require('gulp-eslint');
 
@@ -57,6 +57,21 @@ gulp.task('default', ['lint'], function () {
 
 ```
 
+## using with [grunt](https://github.com/sindresorhus/grunt-eslint)
+
+install the dependency: `npm install --save-dev grunt-eslint load-grunt-tasks`
+
+```javascript
+require('load-grunt-tasks')(grunt); // npm install --save-dev load-grunt-tasks
+
+grunt.initConfig({
+    eslint: {
+        target: ['file.js']
+    }
+});
+
+grunt.registerTask('default', ['eslint']);
+```
 
 
 
